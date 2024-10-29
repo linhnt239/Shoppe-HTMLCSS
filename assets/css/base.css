@@ -57,6 +57,10 @@ html {
 
 /* Modal */
 
+.hidden {
+    display: none;
+}
+
 .modal {
     position: fixed;
     top: 0;
@@ -65,6 +69,7 @@ html {
     left: 0;
     display: flex;
     animation: fadeIn linear 0.1s;
+    display: none;
 }
 
 .modal__overlay {

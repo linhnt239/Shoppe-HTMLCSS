@@ -257,6 +257,7 @@
     background-color: var(--white-color);
     overflow: hidden;
     border-radius: 5px;
+    
 }
 
 .auth-form__container {
@@ -373,6 +374,10 @@
 
 .auth-form__help-forgot {
     color: var(--primary-color);
+}
+
+.modal.open {
+    display: flex;
 }
 
 /* Header search */
